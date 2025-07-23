@@ -1,3 +1,4 @@
+
 public class CreateSupportTicketAction {
     @InvocableMethod(label='Create IT Support Ticket' description='Creates a new IT support case.')
     public static List<Result> createTicket(List<Request> requests) {
